@@ -33,7 +33,7 @@ export default async function handler(
       line_items: [
         {
           price_data: {
-            currency: "usd",
+            currency: "inr",
             unit_amount: PRICES[quantity].price,
             product_data: {
               name: `⚡️ Refill +${quantity} shots and ${PRICES[quantity].promptWizardQuantity} prompt assists`,
