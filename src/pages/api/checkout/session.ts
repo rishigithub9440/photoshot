@@ -18,7 +18,7 @@ export default async function handler(
       line_items: [
         {
           price_data: {
-            currency: "usd",
+            currency: "inr",
             unit_amount: Number(process.env.NEXT_PUBLIC_STRIPE_STUDIO_PRICE),
             product_data: {
               name: `Studio model training + ${process.env.NEXT_PUBLIC_STUDIO_SHOT_AMOUNT} shots`,
